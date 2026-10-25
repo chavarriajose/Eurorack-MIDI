@@ -1,0 +1,15 @@
+Quantity,Part,Value,Used for,Notes
+1,ESP32-S3 development board,ESP32-S3-DevKitC-1 style N16R8,Microcontroller and USB MIDI,"On clone boards, bridge the IN-OUT pad"
+1,Hex Schmitt inverter,CD40106 (DIP-14),Input buffer U1,
+1,IC socket,DIP-14,Socket for the CD40106,Recommended
+5,NPN transistor,2N3904,Output stages,"BC547 or BC548 also work (reversed pinout)"
+10,3.5 mm mono jack,Thonkiconn PJ398SM or similar,5 inputs and 5 outputs,
+5,Resistor,22k,Input series resistor,
+10,Resistor,100k,Input pull-down (5) and output base pull-down (5),
+5,Resistor,10k,Output base resistor,
+10,Resistor,1k,Output pull-up to 5V (5) and output series resistor (5),
+10,Schottky diode,1N5819,"Input clamps, 2 per input",1N4148 works as a substitute
+1,Film capacitor,0.22uF,CD40106 decoupling,100nF ceramic also works
+1,Perfboard,54 x 33 holes (2.54 mm),Prototype board,
+2,Female pin header,1 x 22,Socket for the ESP32 board,
+1,USB-C cable,,Connection to the computer,
