@@ -1,8 +1,6 @@
 # Eurorack-MIDI
 
-> **Version 0 (v0).** This is the first working version of the project: a hand-soldered perfboard prototype that has been built and tested. It works, but it is a starting point, not a finished product. Future versions can (and should) improve on it. See [Ideas for future versions](#ideas-for-future-versions).
-
-A small two-way bridge between a eurorack modular synth and a computer.
+A small two-way bridge between a Eurorack Modular Synth and a Computer or any device that can process MIDI Input and Output.
 
 An ESP32-S3 shows up on the computer as a USB MIDI device called **Eurorack-MIDI**. No drivers are needed, so it works with Ableton Live, any other DAW, Max/MSP, Pure Data, Processing, Web MIDI in the browser, and so on.
 
@@ -62,8 +60,6 @@ Each output can work in one of two modes, set in `outputModes`:
 **Full circuit:**
 
 ![Full circuit](hardware/schematics/full-circuit.svg)
-
-PNG versions of all three are in [`hardware/schematics`](hardware/schematics). The diagrams are set in [JetBrains Mono](https://www.jetbrains.com/lp/mono/) (SIL Open Font License).
 
 ### Bill of materials
 
@@ -169,7 +165,7 @@ Eurorack-MIDI/
 
 ## Credits
 
-Created by **Jose Chavarria**, 2026.
+Created by **Jose Chavarría**, 2026.
 
 This project was partially developed with the help of AI (Claude, by Anthropic), then built, tested and adjusted on real hardware.
 
